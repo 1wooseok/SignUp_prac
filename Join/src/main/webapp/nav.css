@@ -1,0 +1,260 @@
+body {
+    margin :0;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #f6f9fc;
+}
+
+.none {
+	display:none;	
+}
+
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    overflow: hidden;
+    padding-top: 3px;
+}
+
+dt {
+    font-size: 12px;
+    font-weight: 700;
+    float: left;
+    width: 48%;
+    padding-top: 12px;
+    color: #333;
+}
+
+.change_feild, .delete_feild span {
+	font-size: 10px;
+    font-weight: 700;
+}
+
+dd {
+    font-size: 14px;
+    line-height: 21px;
+    overflow: hidden;
+    padding-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    color: #666;
+    background: #fff;
+}
+
+#content_section {
+	position: relative;
+    z-index: 20;
+    max-width: 954px;
+    margin: 0 auto;
+    height: 568px;
+    zoom: 1;
+    padding: 20px 12px 94px;
+}
+
+#content_section .column {
+	float: left;
+    width: 50%;
+}
+
+.profile {
+	margin: 16px 8px 0;
+    padding: 30px 29px 32px;
+    text-align: left;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    background: #fff;	
+}
+
+.profile_header , .profile_content {
+	color:black;	
+	text-align: left;
+}
+
+#top_menu {
+    width:100%;
+    background-color:#03c75a;
+}
+
+#menu {
+	display:flex;
+	justify-content: space-between;
+   	vertical-align: middle;
+    width: 930px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#sub_menu {
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+    align-items:flex-start;
+	width:100%;
+	height: 35px;
+	border-bottom: 1px solid lightgrey;
+	background-color:white;
+	color:black;
+	padding-left :450px;
+}
+
+#sub_menu .sub_list {
+	padding: 0;
+    margin: 0;
+	display: flex;
+}
+
+
+#sub_menu .sub_list li {
+    padding: 8px 12px;
+}
+
+#sub_menu .sub_list li:hover {
+    background-color:rosybrown;
+    border-radius: 4px;
+}
+
+#sub_menu a {
+	text-decoration: none;	
+}
+
+
+
+.list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.list li {
+    padding: 8px 12px;
+}
+
+.list li:hover {
+    background-color:rosybrown;
+    border-radius: 4px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a {
+	position:relative;
+	top:15px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.edit_btn {
+	font-size: 12px;
+    line-height: 34px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none!important;
+    border: 1px solid silver;
+    color:black;
+    text-align:center;
+    
+}
+
+.confirm_btn {
+	font-size: 12px;
+    line-height: 32px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none!important;
+    border: 1px solid silver;
+    color:black;
+    text-align:center;
+    background-color : white;
+    color: #03c75a;
+}
+
+.btn2 {
+	border: 1px solid silver;
+    background: #fff;
+    
+}
+
+.c_header .contxt {
+    line-height: 19px;
+    margin-top:0px;
+    color: #666;
+}
+/* Settings Table */
+
+.tbl_model .contxt_desc {
+    line-height: 19px;
+    padding-top: 9px;
+    color: #8e8e8e;
+}
+
+.tbl_model {
+    position: relative;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    word-break: keep-all;
+    border: 0;
+    border-bottom: 1px solid #f6f9fc;
+}
+
+.tbl_model .thcell {
+    padding: 30px 31px 32px;
+}
+
+.tbl_model .tdcell {
+    padding: 30px 0 32px 30px;
+}
+
+.tbl_model .contxt_tit {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+}
+
+.tbl_model .btn_area_btm {
+    overflow: hidden;
+    margin-left: -8px;
+    padding-top: 16px;
+    text-align: left;
+}
+
+td {
+	
+	background-color:white;
+}
+
+.settings_text_box {
+	background-color : #f6f9fc;
+	border:1px solid silver;
+	
+}
+
+.btn_feild {
+	margin-top:20x;	
+}

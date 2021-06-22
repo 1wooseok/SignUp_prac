@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./style.css">
+<script type="text/javascript">
+	history.pushState(null, null, location.href);
+	window.onpopstate = function(event) {
+		history.go(1); 
+	};
+</script>
+</head>
+<body>
+    <h1>LOGIN</h1><br><br>
+   	<form action="login.jsp" method="post">
+   		<input type="text" name="login_id" placeholder="UserName" required><br>
+    	<input type="password" name="login_pswd" placeholder="Password" required><br>
+    	<input class="sign_in_btn" type="submit" name="sign_in" value="Sign in"><br>
+   	</form>
+    <p style="color: #8e8e8e;">Forgot your <a href="">UserName</a> or <a>Password</a>?  |  <a href="join.jsp">Sign Up</a></p>
+</body>
+</html>
